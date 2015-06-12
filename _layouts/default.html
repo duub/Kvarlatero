@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Kvarlatero - {{ page.title }}</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <a href="/" ><h1 class="kvarlatero">Kvarlatero</h1></a>
+        <p>Kvarlatero project</p>
+
+        <p class="menu">
+          <a href="demandosigno.html"><img src="assets/ds.png"></a>
+          <a href="ampolo.html"><img src="assets/ampolo.png"></a>
+        </p>
+      </header>
+      <section>
+        {{ content }}
+      </section>
+      <footer>
+        <p><small><a href="https://github.com/emwa">View GitHub Profile</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+
+  </body>
+</html>
