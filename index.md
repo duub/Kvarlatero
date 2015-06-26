@@ -2,5 +2,6 @@
 layout: default
 title: Kvarlatero
 ---
-Saluton,
+# Saluton
+
 tiu ejo estas loko por disvolvi ideon kaj lerni Esperanton.
